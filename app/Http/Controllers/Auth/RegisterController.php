@@ -1125,6 +1125,7 @@ class RegisterController extends Controller
         //未取得用户资料，将导向至大会员的登录页面
         if(empty($userinfo))
         {
+            //没有用户信息时
             /*$action='login';
             //产生本地登录的return_url;
             $localLoginUrl='http://'.$_SERVER['HTTP_HOST']."/newDisplay";
